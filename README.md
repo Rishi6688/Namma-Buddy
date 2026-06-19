@@ -1,4 +1,16 @@
-# Namma Buddy — Your Smart Bangalore Companion
+<p align="center">
+  <img src="assets/banner.svg" alt="Namma Buddy Banner" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Web-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI-Gemini%201.5%20Flash-7C5CFC?style=for-the-badge&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/City-Bangalore-F5A623?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-00C896?style=for-the-badge"/>
+</p>
+
+---
 
 **Namma Buddy** is an all-in-one web companion app built for tourists, newcomers, and locals navigating Bangalore. It consolidates metro navigation, food discovery, Kannada language support, emergency services, accommodation guides, and an AI-powered chatbot — all in a single mobile-first interface.
 
@@ -13,6 +25,10 @@ Instead of juggling Google Maps, Zomato, Google Translate, and multiple browser 
 ---
 
 ## Features
+
+<p align="center">
+  <img src="assets/features.svg" alt="Namma Buddy Features" width="100%"/>
+</p>
 
 ### User Modes
 Three tailored experiences based on who you are:
@@ -72,6 +88,10 @@ Three tailored experiences based on who you are:
 
 ## Tech Stack
 
+<p align="center">
+  <img src="assets/techstack.svg" alt="Tech Stack" width="100%"/>
+</p>
+
 | Layer | Technology |
 |---|---|
 | Frontend | HTML5, CSS3, Vanilla JavaScript |
@@ -87,11 +107,15 @@ Three tailored experiences based on who you are:
 
 ```
 NammaBuddy/
+├── assets/
+│   ├── banner.svg          # Project banner
+│   ├── features.svg        # Feature overview diagram
+│   └── techstack.svg       # Tech stack visual
 ├── frontend/
 │   └── NammaBuddy_Final_Submission.html   # Complete single-page app
 └── backend/
-    ├── server.js                           # Express server + Gemini AI integration
-    ├── database.json                       # Metro routes, ride data, language phrases
+    ├── server.js           # Express server + Gemini AI integration
+    ├── database.json       # Metro routes, ride data, language phrases
     └── package.json
 ```
 
@@ -123,7 +147,7 @@ cd backend
 npm install
 ```
 
-Add your Gemini API key in `server.js` (or use a `.env` file):
+Add your Gemini API key in `server.js`:
 
 ```js
 const API_KEY = "your-gemini-api-key-here";
@@ -158,5 +182,5 @@ Bangalore has over 13 million people and receives thousands of new arrivals ever
 
 ## Author
 
-**Rishi Reddy**
+**Rishi Reddy**  
 GitHub: [@Rishi6688](https://github.com/Rishi6688)
